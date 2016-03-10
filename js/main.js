@@ -14,12 +14,35 @@ var insects = [
     name: 'Dung Beetle',
     img: 'dung-beetle.jpg',
     family: 'Scarabidae',
-    size:
+    size: '20-30'
     food: {
       eatsInsects: false,
       eatsDung: true,
       eatsPlants: false,
     }
+  },
+  {
+    name: 'Stag Beetle',
+    img: 'stag-beetle.jpg',
+    family: 'Lucanidae',
+    size: '5-120',
+    food {
+      eatsInsects: false,
+      eatsDung: false,
+      eatsPlants: true,
+    }
+  }
+  {
+    name: 'Tortoise Beetle',
+    img: 'tortoise-beetle.jpg',
+    family: 'Cassidinae',
+    size: '1-18',
+    food {
+      eatsInsects: false,
+      eatsDung: false,
+      eatsPlants: true,
+    }
+
   }
 ]
 

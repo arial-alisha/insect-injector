@@ -4,7 +4,7 @@ var insects = [
     img: 'ant-nest-beetle.jpg',
     family: 'Carabidae',
     size: '6-20',
-    food: {
+    food {
       eatsInsects: true,
       eatsDung: false,
       eatsPlants: false,
@@ -15,7 +15,7 @@ var insects = [
     img: 'dung-beetle.jpg',
     family: 'Scarabidae',
     size: '20-30'
-    food: {
+    food {
       eatsInsects: false,
       eatsDung: true,
       eatsPlants: false,
@@ -31,7 +31,7 @@ var insects = [
       eatsDung: false,
       eatsPlants: true,
     }
-  }
+  },
   {
     name: 'Tortoise Beetle',
     img: 'tortoise-beetle.jpg',
@@ -43,8 +43,8 @@ var insects = [
       eatsPlants: true,
     }
 
-  }
-]
+  },
+];
 
 var writeInsects = function (bugs) {
   document.write('<h1>Insects</h1>');

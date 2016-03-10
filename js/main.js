@@ -1,9 +1,4 @@
-// Create your variable here, name it `insects`
-
-
-// ##########################################################
-// START DO NOT CHANGE ZONE
-// ##########################################################
+var insects;
 
 var writeInsects = function (bugs) {
   document.write('<h1>Insects</h1>');

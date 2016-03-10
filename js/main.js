@@ -42,7 +42,6 @@ var insects = [
       eatsDung: false,
       eatsPlants: true,
     }
-
   },
 ];
 

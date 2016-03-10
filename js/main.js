@@ -1,4 +1,27 @@
-var insects;
+var insects = [
+  {
+    name: 'Ant Nest Beetle',
+    img: 'ant-nest-beetle.jpg',
+    family: 'Carabidae',
+    size: '6-20',
+    food: {
+      eatsInsects: true,
+      eatsDung: false,
+      eatsPlants: false,
+    }
+  },
+  {
+    name: 'Dung Beetle',
+    img: 'dung-beetle.jpg',
+    family: 'Scarabidae',
+    size:
+    food: {
+      eatsInsects: false,
+      eatsDung: true,
+      eatsPlants: false,
+    }
+  }
+]
 
 var writeInsects = function (bugs) {
   document.write('<h1>Insects</h1>');
